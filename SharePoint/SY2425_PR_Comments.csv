@@ -1,0 +1,1152 @@
+﻿ListSchema={"schemaXmlList":["<Field ID=\"{fa564e0f-0c70-4ab9-b863-0177e6ddd247}\" Type=\"Text\" Name=\"Title\" DisplayName=\"Title\" Required=\"FALSE\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"Title\" FromBaseType=\"TRUE\" CustomFormatter=\"\"><Default /></Field>","<Field DisplayName=\"PR_No\" Format=\"Dropdown\" IsModern=\"TRUE\" MaxLength=\"255\" Name=\"PR_No\" Title=\"PR_No\" Type=\"Text\" ID=\"{b652796d-9781-4e50-afdc-a3050999aca5}\" StaticName=\"PR_No\" />","<Field AppendOnly=\"FALSE\" DisplayName=\"Comments\" Format=\"Dropdown\" IsModern=\"TRUE\" IsolateStyles=\"FALSE\" Name=\"Comments\" RichText=\"FALSE\" RichTextMode=\"Compatible\" Title=\"Comments\" Type=\"Note\" ID=\"{07583c6f-eeb5-4f20-b274-dd5f874efe1b}\" StaticName=\"Comments\" />","<Field DisplayName=\"Status\" Format=\"Dropdown\" IsModern=\"TRUE\" MaxLength=\"255\" Name=\"Status\" Title=\"Status\" Type=\"Text\" ID=\"{6afb8724-7c97-4ebd-9c78-411232075dd5}\" StaticName=\"Status\" />","<Field DisplayName=\"CreatedEmail\" Format=\"Dropdown\" IsModern=\"TRUE\" MaxLength=\"255\" Name=\"CreatedEmail\" Title=\"CreatedEmail\" Type=\"Text\" ID=\"{65ce13d5-af16-48d6-b822-5cf985e99967}\" StaticName=\"CreatedEmail\" />","<Field ID=\"{82642ec8-ef9b-478f-acf9-31f7d45fbc31}\" ReadOnly=\"TRUE\" Type=\"Computed\" Name=\"LinkTitle\" DisplayName=\"Title\" DisplayNameSrcField=\"Title\" ClassInfo=\"Menu\" AuthoringInfo=\"(linked to item with edit menu)\" ListItemMenuAllowed=\"Required\" LinkToItemAllowed=\"Prohibited\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"LinkTitle\" FromBaseType=\"TRUE\"><FieldRefs><FieldRef Name=\"Title\" /><FieldRef Name=\"LinkTitleNoMenu\" /><FieldRef Name=\"_EditMenuTableStart2\" /><FieldRef Name=\"_EditMenuTableEnd\" /></FieldRefs><DisplayPattern><FieldSwitch><Expr><GetVar Name=\"FreeForm\" /></Expr><Case Value=\"TRUE\"><Field Name=\"LinkTitleNoMenu\" /></Case><Default><HTML><![CDATA[<div class=\"ms-vb itx\" onmouseover=\"OnItem(this)\" CTXName=\"ctx]]></HTML><Field Name=\"_EditMenuTableStart2\" /><HTML><![CDATA[\">]]></HTML><Field Name=\"LinkTitleNoMenu\" /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=\"s4-ctx\" onmouseover=\"OnChildItem(this.parentNode); return false;\">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=\"OnChildItem(this.parentNode.parentNode); return false;\" onclick=\"PopMenuFromChevron(event); return false;\" href=\"javascript:;\" title=\"Open Menu\"></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Default></FieldSwitch></DisplayPattern></Field>","<Field ID=\"{c042a256-787d-4a6f-8a8a-cf6ab767f12d}\" Type=\"Computed\" DisplayName=\"Content Type\" Name=\"ContentType\" DisplaceOnUpgrade=\"TRUE\" RenderXMLUsingPattern=\"TRUE\" Sortable=\"FALSE\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"ContentType\" Group=\"_Hidden\" PITarget=\"MicrosoftWindowsSharePointServices\" PIAttribute=\"ContentTypeID\" FromBaseType=\"TRUE\"><FieldRefs><FieldRef Name=\"ContentTypeId\" /></FieldRefs><DisplayPattern><MapToContentType><Column Name=\"ContentTypeId\" /></MapToContentType></DisplayPattern></Field>"]}
+"Title","PR_No","Comments","Status","CreatedEmail"
+,"RF0126-0005","Amount will not same as shopee due to ""round up""","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0126-0028","Shopee Link : https://shopee.com.my/Baseus-Presenter-Wireless-Laser-Pointer-2.4GHz-Remote-Controller-for-Mac-i.1420644858.26974849183?xptdk=d15c3e70-4eb6-4444-94fe-188ae2c9cb9a","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0126-0027","Bell, change to student clearing account","Posted","atiqah.my@xcledu.my"
+,"RF0126-0040","incomplete info","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0040","incomplete info","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0040",,"Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0040",,"Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0017","Yes.Collection list already attached together with the invoice.please refer to the attachment.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0011","Please send to finance payables team as this is under entertainment","Rejected","anisnurshazmira@xcledu.my"
+,"RF0126-0088","Wrongly rename, suppose Shopee.","Posted","thevarani.s@srikdu.edu.my"
+,"RF0126-0076","Combine in one RF. Refer RF0126-0060","Rejected","syafiqah.aa@srikdu.edu.my"
+,"RF0126-0060","Please attach DO/Invoice for RM10K from vendor. ","Posted","hamizah.mf@xcledu.my"
+,"RF0126-0110","Please include SST charge cost in the item cost, instead of seperate lines","Rejected","anisnurshazmira@xcledu.my"
+,"RF0126-0097","Please check with Ms Lorraine for stocks in SEP, and 2nd ordering round for Term 1 books","Rejected","anisnurshazmira@xcledu.my"
+,"RF0126-0127","There is a discrepancy of RM 0.01 due to the amount of tax divided by the item.","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0095","Wrong Department","Posted","thevarani.s@srikdu.edu.my"
+,"RF0126-0063","There is no log as Anies on Hospitalization and the job need to be done asap. ","Posted","hamizah.mf@xcledu.my"
+,"RF0126-0148","Wrong department","Posted","thevarani.s@srikdu.edu.my"
+,"RF0126-0054","have corrected the vendor to credit card ","Posted","g.sheema@srikdu.edu.my"
+,"RF0126-0037","Have corrected as per quotation- Air ticket ","Posted","g.sheema@srikdu.edu.my"
+,"RF0126-0060","wrong department","Posted","thevarani.s@srikdu.edu.my"
+,"RF0126-0055","Wrong department","Posted","thevarani.s@srikdu.edu.my"
+,"RF0226-0010","Done attached","Posted","thevarani.s@srikdu.edu.my"
+,"RF0126-0048","Price for item 3 was sum up due to include shipping fees.
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0108","Urgent request as Vendor requires PO to process the orders. 6 students' payment still pending.","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0027","Allocate cost under Students uniform because we will pay first the purchase. EYFS will keep stock. If any parents want to purchase, they will pay to finance department directly. ","Posted","shaidatulnabila@real.edu.my"
+,"RF0226-0013","done","Posted","k.sumatah@srikdu.edu.my"
+,"RF0226-0011","Please attach sponsorship receipt in PO","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0114","to ikhram : please change the item code to ACAD-03003","Rejected","sitinadia@xcledu.my"
+,"RF0126-0132","School cost, no collection ","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0014","Discrepancy of RM0.12 due to the decimal point","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0006","done","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0150","done","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0132","This is the urgent order requested by Duncan","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0031","Ok Will click submit","Posted","thevarani.s@srikdu.edu.my"
+,"RF0126-0031","Dear Nur Atiqah, what document do you need me to attach? We do not have any quotation","Posted","evelynchristina@realkids.edu.my"
+,"RF0226-0076","This has discussed with Jeremy, the contract needs to be follow new FY (July 25 - June 26), the RF need to follow financial year 
+1) January - June 2026
+2) July 2026 - June 2027","Rejected","atiqah.my@xcledu.my"
+,"RF0226-0078","Portion to divide equally between all schools
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0078","CAPEX Approval email from Jawad attached.","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0072","Anis, please raise by follow the financial year which is January 2026 till June 2026","Rejected","atiqah.my@xcledu.my"
+,"RF0226-0079","This request is fall under PO Exemption, (Utilities Payment). 
+Invoice well submitted to Finance Payable Team on 6th Feb 2026. ","Rejected","hamizah.mf@xcledu.my"
+,"RF0126-0087","Cost center to park all under RKHQ - Input from Poey","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0073","CAPEX Code : B26-ECCE-25 
+","Posted","atiqah.my@xcledu.my"
+,"RF0126-0075","CAPEX Code :  B26-ECCE-26 
+","Posted","atiqah.my@xcledu.my"
+,"RF0226-0032","rejected as no longer needed. location changed to XMCO instead of SKKD.","Rejected","sitinadia@xcledu.my"
+,"RF0226-0103","MSSD Klang Cross Country Competition 2026 - 11 - 12 Feb 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0085","One PO is required for this request as this is an additional pax from PO-MY06-13312.
+* Fun Camp done, awaiting payment","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0085","Discrepancy of RM0.01 due to rounding adjustment, stated in quotation","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0126","Total Collection - RM 1,100","Posted","atiqah.my@xcledu.my"
+,"RF0226-0053","Pending Revised Contract 2026 from Arif","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0130","Naqib, edit this into 1 line for CAPEX","Posted","atiqah.my@xcledu.my"
+,"RF0226-0121","Total collection = RM 128,500","Posted","atiqah.my@xcledu.my"
+,"RF0226-0104","CNY Gathering 2026 
+Date: 12 Feb 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0082","Item 1 only capex as we install a new air cond.
+
+Item 2 - Under opex, only labour cost as we using our aircond to replace the faulty air cond
+
+Item 3 & Item 4 - under opex as we are only change the spareparts.","Posted","shaidatulnabila@real.edu.my"
+,"RF0126-0042","this is International student recruitment (ISR) event, as this event is agent conference where agent can recruit accross all campus under XCL Malaysia, the location doing it in KD this round but agent are promoting XCL malaysia's all campus, therefore the budget would be share equally to the international school under XCL malaysia","Posted","kk.tan@xcledu.my"
+,"RF0226-0147","Total Collection is RM 111,600","Posted","atiqah.my@xcledu.my"
+,"RF0226-0122","Total collection from student = RM 3,060","Posted","atiqah.my@xcledu.my"
+,"RF0226-0161","Finance acknowledge on the namelist received - RM 1,520.00 as the teachers collect cash from the students.
+Breakdown - 19 students x RM80 ","Posted","shaidatulnabila@real.edu.my"
+,"RF0226-0162","GBP23,631.50 / 4 National Schools = GBP5,907.875","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0156","Rejected as it is a duplicate submission. Edward has previously submitted the request under RF0126-0094. ","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0226-0135","Done change to OPEX.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0137","Confirmed by Badjie- payment by month","Posted","shaidatulnabila@real.edu.my"
+,"RF0226-0141","Apparently wrong department was used - but it doesn't say above","Posted","duncan.grice@srikdu.edu.my"
+,"RF0226-0027","done","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0167","Done","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0089","this is PO exemption . please send the invoice to finance team for payment.","Rejected","sitinadia@xcledu.my"
+,"RF0226-0165","Conversation email attached.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0147","1) Flight = RM 4,820
+2) Hotel = RM 11,400
+3) Airport Transfer = RM 1,440
+4) Buffet Dinner = RM 4,080","Posted","atiqah.my@xcledu.my"
+,"RF0226-0194","This is new vendor- Need to register vendor first.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0193","This is new vendor. Need to register vendor first","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0194","Ignore comment.Existing vendor","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0134","Unable to submit approval- Existing vendor VEND07565 BSGIFTS Sdn. Bhd missing in the list.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0192","Requestor to raise A4 Paper in seperate RF","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0120","Cost charged to Maybank Card on 15 December 2025","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0189","Itemised : 
+1) KTT 260014 - RM 1,140
+2) KTT 250180 - RM 350
+3) KTT 250168 - RM 3,230","Posted","atiqah.my@xcledu.my"
+,"RF0226-0194","Total Collection : RM 2,880","Posted","atiqah.my@xcledu.my"
+,"RF0126-0103","RF on hold.Awaiting budget code ","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0001","done","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0050","Exclude item no 2 in quotation due to pricing. The item will be purchased through Shopee instead. Requestor will raise new RF.
+","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0207","New vendor- need to register vendor first","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0120","Reject because this RF duplicate with RF0126-0116. ","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0226-0128","Charge to GL Groceries 502301 - Lunch Groceries Cost","Rejected","shpoey@realkids.edu.my"
+,"RF0226-0172","23/02/26:all done amend","Posted","arina@real.edu.my"
+,"RF0126-0017","Total collection : RM 1,350","Posted","atiqah.my@xcledu.my"
+,"RF0226-0207","Yaany, balance will pay by the students itself or how? please clarify on this. ","Posted","atiqah.my@xcledu.my"
+,"RF0226-0210","Balance A4 Paper reams in center: 0","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0107","Kangaroo Math Competition - 22 April 2026
+Registration
+• Date: 9th January 2026 to 2nd February 2026
+• Fee: RM55 (inclusive of RM10 admin fee)","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0108","KANCIL SCIENCE COMPETITION - 18 June 2026
+Registration 
+• Date: 9th January 2026 to 2nd February 2026 
+• Fee: RM55 (inclusive of RM10 admin fee)","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0207","Yes, the balance will be paid by the students themselves.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0059","BO requested to on hold this RF for 2 weeks from today.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0213","balance : 0","Posted","sugunanair@realkids.edu.my"
+,"RF0226-0191","Attached revised quotation. Managed to reduce price to rm 11/pc i/o Rm 12/pc","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0209","Arif have raise the order","Rejected","jeremytoh@xcledu.my"
+,"RF0226-0119","Fobisia Climbing		
+Date: 28th - 31st (comp is 29/30th)
+Location: Camp5 KL East Mall and The Oakwood Hotel		
+		
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0170","advised by lilian to use School Event item code - related to students","Posted","sitinadia@xcledu.my"
+,"RF0126-0155","
+23/02/26: On the Aug'25 deduction, the amount is RM513.60; the attachment is together in the payslip Jun-Aug document.
+
+","Posted","arina@real.edu.my"
+,"RF0226-0236","23/02/2026: Done, including sales tax of RM9.60. Sorry for missing out on the tax.","Posted","arina@real.edu.my"
+,"RF0226-0207","done attach the breakdown ","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0165","payment link
+
+https://teams.microsoft.com/l/message/19:1f80b83e-6dc1-4151-8c72-e0237b70e1b0_fd2645bb-e97e-4631-889d-a16f392a068a@unq.gbl.spaces/1771832683575?context=%7B%22contextType%22%3A%22chat%22%7D","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0247","0 stocks for both sizes","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0147","1) Flight = RM 4,820
+2) Hotel = RM 10,453
+3) Airport Transfer = RM 1,440
+4) Buffet Dinner = RM 4,644","Posted","atiqah.my@xcledu.my"
+,"RF0226-0149","Project code: B26-BXCL-33","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0221","Project code: B26-BXCL-33","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0276","pending vendor creation.","Posted","sitinadia@xcledu.my"
+,"RF0226-0279","wrong amount","Posted","thevarani.s@srikdu.edu.my"
+,"RF0226-0262","25/02/26: As confirmed with the Student Service department, the minimum order of 10 pcs will keep stock for term 2 open for ECA enrollment.","Posted","arina@real.edu.my"
+,"RF0226-0221","done","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0218","This job done before the pantry renovation work start.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0205","Wrong info and Company name","Rejected","jeremytoh@xcledu.my"
+,"RF0226-0183","Jun will submit new RF with new Quotation","Rejected","meikei.c@srikdu.edu.my"
+,"RF0226-0321","RF NOT ATTACHED
+","Posted","thevarani.s@srikdu.edu.my"
+,"RF0226-0243","According to Finance, transportation to and from the airport is not included in the costing. Parents will need to arrange and send their children to the airport directly.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0243","According to Finance, transportation to and from the airport is not included in the costing. Parents will need to arrange and send their children to the airport directly.","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0217","Unable to submit approval- Existing vendor VEND07543 Jesl Air-Conditioning Sales & Service missing in the list of vendor in siriusnex","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0054","Duplicate..pls refer to RF0226-0175.Refer to the attachment. ","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0020","Cancel -Refer to RF0226/165-as this RF doesnt reflect the approver stage","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0134","Vendor added in list","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0217","vendor added ","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0325","pending amended quotation.","Posted","sitinadia@xcledu.my"
+,"RF0226-0325","revised quotation done
+","Posted","atiqah.my@xcledu.my"
+,"RF0226-0309","Cleaning Overtime Jan 2026_SKISS PTC","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0338","This is collection event. MK will do reversal on the clearing account once all collection come in. ","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0226-0333","This is collection event. MK will do reversal on the clearing account once all collection come in. ","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0018"," Project Cocde :B26-SKKD-59 - please add into subject
+","Posted","atiqah.my@xcledu.my"
+,"RF0326-0020","Project Cocde :B26-SKKD-60 - please add into subject ","Posted","atiqah.my@xcledu.my"
+,"RF0226-0333","How we will know how much in total collection has been collect to cover the cost? any collection list to attached?","Posted","atiqah.my@xcledu.my"
+,"RF0226-0326","03.03.26: code done amend—sorry for the inconvenience caused. ","Posted","arina@real.edu.my"
+,"RF0226-0338","Same as this, how we will know how much collection has been collect to cover the cost? ","Posted","atiqah.my@xcledu.my"
+,"RF0326-0009","Expected to be last renewal for Canva Business before changing to Canva Pro ","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0338","under the student clearing account, school finance will do a reversal once events happened, because the collections have not yet capture, and if the expense capture under the school event directly, it will affect p&l","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0226-0333","under the student clearing account, school finance will do a reversal once events happened, because the collections have not yet capture, and if the expense capture under the school event directly, it will affect p&l","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0226-0305","Stated 25/26 only, no exact date.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0326-0007","Cost covered by school, as the equipment belong to the school.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0326-0024","New vendor-Need to register vendor","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0025","duplicate request","Posted","melanie.martin@srikdu.edu.my"
+,"RF0226-0339","to change the billing to Sri Kdu Sdn Bhd since only 2 sri kdu schools involved. - already asked KK to check with the vendor.","Posted","sitinadia@xcledu.my"
+,"RF0326-0019","This is addtional student trip insurance for 1 person.","Posted","atiqah.my@xcledu.my"
+,"RF0326-0024","Collection RM3700/student","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0292","According to Syafiqah, hampers purchase budget will be taken from drinks for participants allocation on Costing Form.","Posted","hamizah.mf@xcledu.my"
+,"RF0226-0335","FOBISIA Safeguarding and Pastoral Care Conference
+Date: 21 - 23 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0117","Total collection 
+External School : MYR74,600.12
+Sri KDU : MYR6,000
+All total cost : RM80,600.12","Posted","najihah.ms@srikdu.edu.my"
+,"RF0226-0339","PR raise under KD","Rejected","sitinadia@xcledu.my"
+,"RF0326-0041","this is non PO. please send the invoice to finance team.","Rejected","sitinadia@xcledu.my"
+,"RF0326-0006","Duplicate RF.please refer to RF0226-0315 & RF0226-0316-raised by Melanie","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0039","Fobisia event just confirm they will cancel this event.","Rejected","najihah.ms@srikdu.edu.my"
+,"RF0326-0021","attach","Posted","najihah.ms@srikdu.edu.my"
+,"RF0326-0057","no costing form & collection list attached in RF. ","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0022","Date : 19th March 2026","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0022","Students paid for RM116 for this school trip. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0021","Total collection RM 3,016","Posted","atiqah.my@xcledu.my"
+,"RF0326-0073","Confirm by Atiqah to proceed use Item Code under CAPEX011 School Improvement. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0051","Naqib, please change to one line only instead of divide few line to pickup as CAPEX.","Posted","atiqah.my@xcledu.my"
+,"RF0326-0057","Total collection : RM 2,325","Posted","atiqah.my@xcledu.my"
+,"RF0326-0043","Total Collection : RM 333,910.00","Posted","atiqah.my@xcledu.my"
+,"RF0326-0072","Refer to RF0326-0056, as this is duplicated RF","Rejected","anisnurshazmira@xcledu.my"
+,"RF0326-0088","Refer to RF0326-0056, as this is duplicated RF","Rejected","anisnurshazmira@xcledu.my"
+,"RF0326-0056","RK Taman Cuepacs - RM265
+RK Ampang - RM265
+RK Wangsa Melawati - RM265
+RK Setapak - RM265","Posted","anisnurshazmira@xcledu.my"
+,"RF0226-0338","This budge come from the entrance tickets selling which is inclusive of iftar and some raya activities.  ","Posted","hamizah.mf@xcledu.my"
+,"RF0226-0338","Payment collection list as per attached file. ","Posted","hamizah.mf@xcledu.my"
+,"RF0226-0333","This budge come from the entrance tickets selling which is inclusive of iftar and some raya activities.  Refer to attached updated collection list for reference. ","Posted","hamizah.mf@xcledu.my"
+,"RF0226-0333","Got two prices for entrance ticket selling: 
+1) RM30
+2) RM35","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0029","These centers are all within REG, the same legal entity. Please clarify why interco billing is required?","Posted","shpoey@realkids.edu.my"
+,"RF0226-0288","Total 1st Collection = RM 11,280 + RM 15,810 = RM 27,090
+Total 2nd Collection = RM 271,170
+
+Grand Total Collection = RM 298,260","Posted","atiqah.my@xcledu.my"
+,"RF0326-0080","Cancelled due to duplicated RF
+","Rejected","anisnurshazmira@xcledu.my"
+,"RF0326-0102","Because wrong currency.","Posted","jun.c@srikdu.edu.my"
+,"RF0226-0332","Reject as duplicate with RF0226-0058. Payment already done.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0061","Budget under marketing event:
+Video & Photo Production     RM3,800.00
+Event Photographer            RM1,000.00
+Total:                      RM 4,800.00
+SST 8%:                     RM 384.00
+Net Total:                  RM 5,184.00
+
+Under Student Collection:
+AV Rental                                          4000
+Physical Setup + SST (RM350.40)      730.40","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0061","Event Date: 9 & 10 March 2026","Posted","hamizah.mf@xcledu.my"
+,"RF0126-0146","Should charge to RK Setia Indah campus.","Posted","shpoey@realkids.edu.my"
+,"RF0126-0146","Should charge to RK SI campus / centre","Rejected","shpoey@realkids.edu.my"
+,"RF0326-0029","Need to change the item code to FAC-02011 for pest control.","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0071","Billing address updated","Posted","ikhram.z@srikdu.edu.my"
+,"RF0326-0040","Collection : RM 1,800","Posted","atiqah.my@xcledu.my"
+,"RF0326-0034","I initially set the price slightly higher than the Shopee price because sometimes the Shopee price suddenly increases after a promotion ends. This has happened before, and I had to look for another Shopee vendor, which was not easy to find a price lower than the price stated in the PO. However, based on Nadia’s advice, I have amended it as requested. Thank you.","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0112","No RK Setia Indah from the campus list as this center was closed. 
+Please reclass to RK Setia Indah on Netsuite. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0117","Refer to attached Master Procurement List for RK Suppliers Items List 2026. Kindly refer to tab SOCKS. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0117","According to requestor, this purchase is for this year stock as free socks for give out still not distribute yet. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0069","external wall-Outside school, near to swimming pool area--please refer to the picture in attachment.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0086","added the shipping cost in line 3","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0119","09/03/26: price amend and remove doiscount but still including shipping and new attachment ","Posted","arina@real.edu.my"
+,"RF0326-0123","as per requested by requestor","Rejected","anisnurshazmira@xcledu.my"
+,"RF0326-0112","RSJB will absorb the cost for the transfer unit aircond from RK Setia Indah to RSJB. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0031","Have edit requested","Posted","najihah.ms@srikdu.edu.my"
+,"RF0326-0029","Please cross charge to respective cost centre in VB level as RKHQ cost centre is used.","Posted","shpoey@realkids.edu.my"
+,"RF0326-0056","On hold until Conso RK Sports Day Budget is submitted.","Posted","shpoey@realkids.edu.my"
+,"RF0226-0338","Petty Cash to cover - need to confirm policy on events / clearing at the end of the month - this will now not come in time. ","Rejected","cassie.fleming@srikdu.edu.my"
+,"RF0226-0333","Petty Cash to cover - need to confirm policy on events / clearing at the end of the month - this will now not come in time. ","Rejected","cassie.fleming@srikdu.edu.my"
+,"RF0326-0150","Refer to PO-MY06-13689.","Rejected","hamizah.mf@xcledu.my"
+,"RF0326-0147","As per requested. Duplicate of RF0326-0011","Rejected","anisnurshazmira@xcledu.my"
+,"RF0326-0153","The Early ChildHood Education Expo, ECEE 2026
+Date: 18 - 19 April 2026
+Location: The Paradigm Mall, PJ","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0138","There is only 1 quote to support this RF because this is the only vendor who is authorized to install the banners and bunting at the given location","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0137","PR return, 
+1) Please check with Zul, Invoice will be issued under Sri KDU Sdn Bhd or Real Education Group Sdn Bhd ? If yes, 7 schools need to be charged under Interco Chargeback instead of use IT Software Licensing/Subscription. 
+","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0137","this will be raise under KD since the billing address charge to KD. already clarify with ganesh and this to be charged to other schools.","Posted","sitinadia@xcledu.my"
+,"RF0326-0057","according to trip coordinator- 1 student is not going..so total is 30 students.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0057",,"Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0152","Urgently needed, owing parents
+Stocks in Center:
+18-20 - 7 pairs","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0175","Attached a master procurement items list file. Refer to tab LT Stationeries for the price quoted. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0176","Naqib, please help to change the vendor to red occasion.","Posted","atiqah.my@xcledu.my"
+,"RF0326-0056","Please park the item to the balance sheet item such as clearing account.","Posted","shpoey@realkids.edu.my"
+,"RF0326-0024","- 30% Deposit @ RM15,890.00 is due on Mar 16th, 2026
+- 70% remaining amount @RM37,065.00 is due on May 6th, 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0183","according to Nadia Rahim, this is for staff","Posted","sitinadia@xcledu.my"
+,"RF0226-0264","cost will be under Akademi Lembah Ilmu(AKLI) as we rent the block to them as stated in the contract. 
+
+I have updated AKLI accordingly","Rejected","shaidatulnabila@real.edu.my"
+,"RF0326-0187","Awin, please put everything in 1 item line code. ","Posted","atiqah.my@xcledu.my"
+,"RF0326-0141","Bunting is to be used as a long-term addition for events, within and outside school.","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0198","FOBISIA Safeguarding and Pastoral Care Conference
+Date: 21 - 23 May 2026
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0133","The campus has been tagged wrongly
+","Rejected","syafiqah.aa@srikdu.edu.my"
+,"RF0326-0027","Only 1 survey per year.","Rejected","celina.cheah@srikdu.edu.my"
+,"RF0326-0203","Help to return the RF. Curiculum should be Secondary (IB) as the material is for A level students","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0229","waiting for amended invoice as this will be process under SKKD not REG","Posted","sitinadia@xcledu.my"
+,"RF0326-0230","this is HQ cost - as per confirmed by kelvin","Posted","sitinadia@xcledu.my"
+,"RF0326-0154","Please help to return back.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0326-0154"," Need to put CAPEX Code: B26-SIKG-50","Posted","ikhram.z@srikdu.edu.my"
+,"RF0226-0303","Librarian has confirmed that this is last academic year that CIE offer Malay as 1st language ","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0172","need to change billing address to REG instead of XCL","Posted","sitinadia@xcledu.my"
+,"RF0326-0121","SKIPS Year 1 Kidzania Trip
+Date: 12 March 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0175","For artblock and tempera paint please refer price at Master Procurement List instead of ORF. Price was wrong stated on ORF which is centre submitted used not updated file. The new price in RF successfully updated based on Master Procurement List. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0220","Cambridge International AS & A Level Chemistry (9701): Focus on chemical reactions and enthalpy | 2022-24 and 2025-27 Syllabus | Virtual 
+Date: 15 - 16 Apr 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0175","For Crepe Paper Light Blue Colour was double key in in ORF and Rachel wish to cancel and only proceed with 3pcs. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0170","Item code changed to Facility Equipment Maint. Adhoc","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0239","The banner will be placed at the school gate.","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0326-0231","Confirmed 50 reams","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0215","According to the vendor, the invoice can only be issued under Sri KDU Subang Jaya Sdn Bhd, as SISJ is the registered entity in their portal. ","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0248","17/03/26: item for Beaded Bracelet DIY Kit for Kids Jewelry DIY will be sourced at a lower than the actual price when the PO is ready","Posted","arina@real.edu.my"
+,"RF0326-0273","Cancelled due to vendor wrongly quoted to RK Putrajaya Presint 15 supposedly to RK Putrajaya Presint 25.","Posted","hamizah.mf@xcledu.my"
+,"RF0226-0283","Najihah, quotation and RF not tally. 
+please highligh item needed from the list","Posted","atiqah.my@xcledu.my"
+,"RF0326-0214","Rate for 3 days 2 night cost","Posted","atiqah.my@xcledu.my"
+,"RF0326-0226","Signages location breakdown attached","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0265","Reject as the insurance renewal for boarding students is PO exemption.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0266","Reject as the insurance renewal for boarding students is PO exemption.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0268","Reject as the insurance renewal for boarding students is PO exemption.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0269","Reject as the insurance renewal for boarding students is PO exemption.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0270","Reject as the insurance renewal for boarding students is PO exemption.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0276","Reject as the insurance renewal for boarding students is PO exemption.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0277","Reject as the insurance renewal for boarding students is PO exemption.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0244","Naqib, for item line no 3 please check back as this has issue RF before. Please removed it.","Posted","atiqah.my@xcledu.my"
+,"RF0326-0296","For recent sport day. Additional medal request by Paul","Posted","najihah.ms@srikdu.edu.my"
+,"RF0326-0258","Vendor missing in list ","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0283","Done amend. Refer attachment","Posted","najihah.ms@srikdu.edu.my"
+,"RF0326-0254","chosen and proceeded with Option 1","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0103","Since we are only laying the infrastructure and not purchasing new assets, this task should be categorized as OPEX rather than CAPEX. Attached email for ref.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0226-0252","Reject as the final payment has been processed and released with PO-MY16-04095","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0284","The amount has change from RM 127,730.00 to RM 126,140.00 by saving RM 1,590 as we are offset from tree cutting to the retaining wall that advise by Engineer.","Posted","atiqah.my@xcledu.my"
+,"RF0326-0199","PR return, please change curriculum to No curriculum. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0199","Cost shared International Primary and International Secondary","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0299","Quantity Breakdown attached. 
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0300","Date : 2 April 2026
+No of pax : 41 pax
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0324","New vendor. Need register vendor","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0289","CAPEX Project Code:
+1. B26-BXCL-09
+2. B26-BXCL-10","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0332","Pending Revised Quotation from vendor
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0333","Kindly refer to screenshot for the updated price 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0116","As advised by Candy (FBP), this has been categorized under Other Student Activities as the events are no collections. A portion of the expenses will be supported by the Career Fair collections. (As per email attached)","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0326-0308","As advised by Candy (FBP), this has been categorized under Other Student Activities as the events are no collections. A portion of the expenses will be supported by the Career Fair collections. (As per email attached)","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0326-0310","As advised by Candy (FBP), this has been categorized under Other Student Activities as the events are no collections. A portion of the expenses will be supported by the Career Fair collections. (As per email attached)","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0326-0327","As advised by Candy (FBP), this has been categorized under Other Student Activities as the events are no collections. A portion of the expenses will be supported by the Career Fair collections. (As per email attached)","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0326-0042","Jun will request petty cash from finance due to vendor cant provide the SSM certificate.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0190","It is for the intervention CCA 'The Hangout' which is run by the learning support dept. Meaning this is not for classroom activity or lesson in the classroom.","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0330","The requestor, Chloe, needs to review and change the items requested.","Rejected","denisegan@realkids.edu.my"
+,"RF0326-0338","26/03/2026 : Jawads email done upload","Posted","arina@real.edu.my"
+,"RF0226-0297","collection list attached","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0332","Date: 24 April 2026
+Venue: Planetarium Negara","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0336","Date: 24 April 2026
+Venue: Planetarium Negara","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0342","Pending document from requestor
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0315","Discrepqancy of RM0.01 due to tax charge","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0236","Requestor reduced the qty to 300pcs in each.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0364","RK Kajang already closed and we tagged the campus to Real Kids. RK Kajang already remove from the campus list in SiriusNex. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0365","RK Bandar Mahkota Cheras was closed. 
+We tagged to Real kids as RK Bandar Mahkota Cheras was not listed from the Campus List in SiriusNex. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0360","Leadership Camp 2026
+Date: 2 March - 3 March 2026
+Time: 2pm (2 March) - 12pm(3 March)
+Location : Skytex Adventure, Sg Congkak, Selangor, Malaysia
+Participant: 41 students
+Teachers: 7 Teachers","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0238","MK have checked with Lilian and her revenue. According to her, we will use International Secondary:IB as A level expenses . GL team will reclass it. ","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0326-0324","Vendor created & Collection list attached. Rm75/student.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0389","30/03/26; done amend","Posted","arina@real.edu.my"
+,"RF0326-0306","Please return to adjust the price accordingly.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0326-0385","No risk assessment provided. Kindly attach once received from Ray. ","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0373","reject - this is non PO. please submit the invoice to Finance Team.","Rejected","sitinadia@xcledu.my"
+,"RF0326-0371","reject - this is non PO. please submit the invoice to Finance Team.","Rejected","sitinadia@xcledu.my"
+,"RF0326-0342","Venue: Planetarium Negara Lot 53, Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur
+Date: 15th April 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0381","Venue: Planetarium Negara Lot 53, Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur
+Date: 15th April 2026
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0384","Please charge to student clearing account as this is not part of boarding expenses","Rejected","fadzeelah.ak@srikdu.edu.my"
+,"RF0326-0416","Date: 10 April 2026
+Day: Friday
+Time: 7.00 am – 12.30 pm
+Departure Time from School: 6.30 am
+Venue: SRI KDU Subang Jaya
+Teachers Involved:
+Pn. Dilot
+Ms Ebbie
+Ms Karen Leong
+Pn. Norhayati
+Pn. Faizah
+Pn. Atiqah","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0394","only purchase items highlighted in yellow.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0410","Blank Card - 20pcs
+Card with QR - 52PCS","Posted","nursyazwina@real.edu.my"
+,"RF0326-0407","done amend tahnk you","Posted","arina@real.edu.my"
+,"RF0326-0409","done amend thank you.","Posted","arina@real.edu.my"
+,"RF0326-0360","I have attached email confirmation from teacher according to her conversation with Mr Cheli.","Posted","shaidatulnabila@real.edu.my"
+,"RF0326-0310","Amend quotation attached","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0226-0276","RF duplicated. no longer need to proceed.
+This is already raised by Sri KDU KD","Posted","nadia.rahim@xcledu.my"
+,"RF0326-0376","Grievance Handling and Investigation Training
+Date: 04.10.2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0379","Charged to card","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0001","School cost","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0362","Kindly refer as per attached email from BO (Mr Cheli, Campus Principal), and to utilize budget under students' activities/events/awards. ","Posted","shaidatulnabila@real.edu.my"
+,"RF0326-0392","Done uploading email for rental external vendor","Posted","arina@real.edu.my"
+,"RF0326-0126","Half collection to paid for the deposit to secure this trip
+","Posted","najihah.ms@srikdu.edu.my"
+,"RF0326-0395","Sorry, I wrongly updated the unbudgeted; it is actually underbudgeted.","Posted","arina@real.edu.my"
+,"RF0426-0021","refer to student collection list","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0299","Please charge to respective cost centres based on Operation's list.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0021","Refer to netsuite PR-MY15-01812--earlier got rejected due to wrong GL code. Should be part of 502717 - Student Candidate Assessment Test Fee","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0020","This is inventory book request. Need to liase with Ms Lorraine to order new books","Rejected","anisnurshazmira@xcledu.my"
+,"RF0426-0013","stationeries for conference use.","Posted","sitinadia@xcledu.my"
+,"RF0326-0281","Please refer in the invoice for the discount amount","Posted","najihah.ms@srikdu.edu.my"
+,"RF0326-0210","approval email trail as per attached","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0326-0126","refer amended quotation","Posted","najihah.ms@srikdu.edu.my"
+,"RF0326-0426","PR return, please change PR Type to Opex instead of Capex.","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0044","done amend thank you.","Posted","arina@real.edu.my"
+,"RF0426-0003","please return to attach costing sheet and RA","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0006","Correction RF's purpose: Year 9 Trip Transportation to Superpark, Avenue K KLCC on 16th April 2026.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0056","Please return to insert costing sheet, RA and collection list","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0063","9644 - RM 60 [15.12.2026]
+9641 - RM 60 [12.12.2026]
+9643 - RM 60 [17.12.2026]","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0071","Due to the absence of the cook, the REY teachers ordered food from canteen for the students.","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0072","INV9651_01.12.2025 - RM56
+INV9650_02.12.2025 - RM56
+INV9649_03.12.2025 - RM49
+INV9648_04.12.2025 - RM56
+INV9647_08.12.2025 - RM42
+INV9646_10.12.2025 - RM56
+INV9645_15.12.2025 - RM85
+INV9640_17.12.2025 - RM42      ","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0066","New School Library has been moved to Block C, Level 1. Renovated for a brand new library. Campus Principal decided to do a small event launch new library and invited few parents from PACE and PAG as a guest. Order some refreshment food for the guest.","Posted","nursyazwina@real.edu.my"
+,"RF0426-0066","Attached email invitation and launching new library poster.","Posted","nursyazwina@real.edu.my"
+,"RF0226-0143","1) IV-11531 [SIPG - Stonyhurst International School_10 Feb] - U9 Swim Meet
+2) IV-11509 [SIPG - SMK Taman Perwira_3 & 4 Feb] - Basketball
+3) IV-11475 [SIPG - POWIIS Balik Pulau_26 Jan] - Netball
+4) IV-11538 [SIPG - Uplands_11 Feb] - Football Sports Exchange
+5) IV-11520 [SIPG - POWIIS Tanjung Bungah_6 Feb] - POWIIS Sports Exchange","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0073","1 bus field trip to PLANETERIUM NEGARA on 23/4/2026
+
+Pickup: RK TTDI
+Dropoff: Planeterium Negara
+Date: 23 April 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0074","RK Master List attached, kindly refer to the attached picture for price","Posted","anisnurshazmira@xcledu.my"
+,"RF0126-0020","Cancel -Refer to RF0226/165-as this RF doesnt reflect the approver stage","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0073","the breakdown of students that will be going for fieldtrip as below:
+ 
+4 years old- 24 students
+5 years old - 23 students
+6 years old - 24 students
+ 
+total 71 students","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0077","to change the company billing to REG","Posted","sitinadia@xcledu.my"
+,"RF0426-0086","Event Date : 7th May 2026","Posted","hamizah.mf@xcledu.my"
+,"RF0326-0414","pending sign agreement and allocation for schools","Posted","sitinadia@xcledu.my"
+,"RF0426-0082","pending vendor creation.","Posted","sitinadia@xcledu.my"
+,"RF0426-0009","please follow up on the pending payment. ","Posted","sitinadia@xcledu.my"
+,"RF0426-0118","1 bus field trip to PLANETERIUM NEGARA on 12/5/2026
+
+Pickup: RK Setapak
+Dropoff: Planeterium Negara
+Date: 12 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0082","this cost will be divide equally between 5 int. schools as per ganesh confirmation.","Posted","sitinadia@xcledu.my"
+,"RF0426-0130","Previous RF0226-0258 was not route to the correct budget owner. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0029","Item code as per Li Lian instruction in attached.","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0426-0114","Name List is yet to be finalized as ciircular will only be share to parents next week.
+The expedition for PO is due to booking the transporter ahead","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0056","Change vendor in PO.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0056","Vendor changed in PO to Raju & Sons Worldwide Transportation as in the quotation attached.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0048","Please attach the costing form.","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0048","done
+","Posted","najihah.ms@srikdu.edu.my"
+,"RF0426-0048","RM3,500/student but as today 7th April 2026 collection received RM57,000.
+Students will pay for 2nd payment for RM500 soon. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0049","RM3,500/student but as today 7th April 2026 collection received RM57,000.
+Students will pay for 2nd payment, RM500 soon. 
+Trip's date: 7-10 May 2026","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0048","Trip's Date : 7-10 May 2026.","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0099","Done request new invoice with bank detail","Posted","arina@real.edu.my"
+,"RF0426-0132","Please attach the Training Form as well.
+","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0095","Transport price gone up 50-100 because of the rise of diesel price. However, collection can cater the additional cost.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0008","The banner will be installed at the outside gate.","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0426-0146","Powerschool Training - 13 - 15 April 2026
+1. Nurhaziqah Hanis Binti Sulaiman
+2. Lee Kah Wee
+
+Hotel – Royal Chulan Damansara","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0132","Benjamin give an exceptional for Lauren for this training and the training duration is 2 years before her contract end. No training form on this as per agreed by Benjamin. ","Posted","atiqah.my@xcledu.my"
+,"RF0426-0077","this cost will be absorb by XMCO","Posted","sitinadia@xcledu.my"
+,"RF0426-0097","Staff Meal for 3Way Conference. ","Posted","atiqah.my@xcledu.my"
+,"RF0426-0126","Event at school campus on 16th & 17thApril, According to finance, RM 8K allocated has been allocated for this event.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0112","Please refer to Invoice instead for total quote.","Posted","atiqah.my@xcledu.my"
+,"RF0426-0018","correct quotation attached","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0059","1/4-requestor confirmed to cancel this request","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0126-0059","1/4-requestor confirmed to cancel this request","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0050","HQ confirms this job will fall under CAPEX. RF put onhold-awaiting project code from requestor.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0169","new vendor-need register vendor. Pending invoice too","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0185","* the total by center is to be viewed on the 'Shortage' from column F to AR.
+* balance from the MOQ will be segregated across 5 selected centers as show in column AZ - BD. Centers are as per below:
+1. Penang
+2. Seremban 2
+3. Bukit Jelutong
+4. Selayang
+5. Putrajaya","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0178","As advised by Candy (FBP), this has been categorized under Other Student Activities as the events are no collections. A portion of the expenses will be supported by the Career Fair collections. (As per email attached)","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0426-0116","Total Collection - RM 1,760","Posted","atiqah.my@xcledu.my"
+,"RF0426-0217","new vendor- need to register vendor","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0217","Collection for 36pax-invoice 35pax-The extra one is for shadow aide but free of charge","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0230","Trip on 15th May 2026.","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0229","For quotation, please open the Master Procurement File and refer to Hygiene Tab.","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0222","Total estimated students join is 100% = 136 student + 13 teachers. 
+Total participants: 149
+Trip date on 14th April 2026.","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0207","Need your help to return as i need to amend the quantity and the price. The vendor just send revise quotation with updated price and quantity.
+","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0246","Attached Master Procurement List and refer to Stationery Tab for A4 and A3 price. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0246","Hi next approval, please return this RF as the Department was wrongly tagged. Supposedly tag to Academic Mgmnt & Academic Support.","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0218","Please attach quotation while submit the Purchase Order to vendor. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0186","Master Procurement List attached, refer to Hygiene tab for the price. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0203","According to MK. We will park curriculum under Secondary: IB for year 12 and year 13. ","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0216","According to Atiq, we will proceed under OPEX using the item code ‘Facility Building Maintenance – Adhoc’, as the scope of work is limited to repairing a specific area rather than the entire floor.","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0206","Please return as i accidentlly approve without CAPEX code","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0242","This cost of RM54k should be accrued across 7 months (3+4, cutting across two business years).","Posted","wendy.lai@xcledu.my"
+,"RF0426-0259","I've amended the RF which to start from February 2026 to June 2026 follow as per attached contract. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0196","Fees for 12 participants.  
+10 students already paid for this competition. Refer to attached collection list. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0210","Check-in Date : 10th May 2026
+Check-out Date : 11th May 2026","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0248","Amortise the cost from Jul 2026 - Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0147","Refer to attached Invoice for 50% deposit. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0200","Due to incident student injured because off the broken lane racing rope. School take action to repair all the broken to a new one.","Posted","nursyazwina@real.edu.my"
+,"RF0426-0177","please return this PR as there is no Capex approval from Mr Jawad.","Posted","sitinadia@xcledu.my"
+,"RF0426-0054","to be used in ongoing and future events","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0155","pending docs from requestor","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0285","1 bus field trip to PLANETERIUM NEGARA on 20/5/2026
+
+Pickup: RK Denai Alam
+Dropoff: Planeterium Negara
+Date: 20 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0284","1 bus field trip to PLANETERIUM NEGARA on 20/5/2026
+
+Pickup: RK Eco Grandeur
+Dropoff: Planeterium Negara
+Date: 20 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0257","1 bus field trip to PLANETERIUM NEGARA on 12/5/2026
+
+Pickup: RK Sunway
+Dropoff: Planeterium Negara
+Date: 12 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0213","1 bus field trip to Kampung Seronok on 13/5/2026
+
+Pickup: RK Penang
+Dropoff: Planeterium Negara
+Date: 13 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0209","1 bus field trip to PLANETERIUM NEGARA on 16/5/2026
+
+Pickup: RK USJ9
+Dropoff: Planeterium Negara
+Date: 16 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0199","1 bus field trip to PLANETERIUM NEGARA on 21/4/2026
+
+Pickup: RK Kg Tunku
+Dropoff: Planeterium Negara
+Date: 21 April 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0198","1 bus field trip to PLANETERIUM NEGARA on 17/5/2026
+
+Pickup: RK Setia Eco Park
+Dropoff: Planeterium Negara
+Date: 17 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0151","1 bus field trip to Planeterium Negara on 23/4/2026
+
+Pickup: RK Cyberjaya
+Dropoff: Planeterium Negara
+Date: 23 April 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0253","Price amended as per quotation attached","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0185","Requeted by Anis","Rejected","phteoh@realkids.edu.my"
+,"RF0426-0300","* the total by center is to be viewed on the 'Shortage' from column F to AR.
+* balance from the MOQ will be segregated across 5 selected centers as show in column AZ - BD. Centers are as per below:
+1. Penang
+2. Seremban 2
+3. Bukit Jelutong
+4. Selayang
+5. Putrajaya","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0300","Pending readers quotation from vendor
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0166","Jihah or Syafiqah - school events please change the item code. ","Posted","atiqah.my@xcledu.my"
+,"RF0426-0054","Replenishment.","Posted","sshaun@realkids.edu.my"
+,"RF0426-0292","Hold RF to make collection first.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0231","Based on Pacific OFfice quotation,  the price for A4 cheaper but the price for A3 slightly higher. At the end, I Office Supply Sdn Bhd more cheaper compare to Pacific Office. #Remaining balance for A4 is 4 reams. Needed approval ASAP","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0307","To check with Fatin which item she would like to proceed as the quantity submit different from the quotation attached. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0272","2.1.1 Town Planner : RM 15,000.00
+2.1.2 Architect : RM 20,000.00
+2.1.3 Total : RM 35,000.00 ( Ringgit Malaysia :
+Thirty-Five thousand only )","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0158","1 bus field trip to PLANETERIUM NEGARA on 22/4/2026
+
+Pickup: RK Gasing Indah
+Dropoff: Planeterium Negara
+Date: 22 April 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0307","To double confirm with Fatin for the vendor's name. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0228","Penang River Cruise
+Date: 13 April 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0228","Transport Arrangement
+PICK UP : FROM XCL INTERNATIONAL SCHOOL 
+SERVICE : TO AND FROM [Round Trip]
+1) PENANG ISLAND 
+- 44 SEATER SCHOOL BUS / RM450.00","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0236","Participating for XCL Conference – Future Leaders","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0240","3CX Cloud based IP PBX - 12 Months Contract - Auto Annual Renewal
+a. 3CX Phone System Professional - 8 Concurrent Calls c/w
+b. Cloud General Infrastructure (CJ1 and AIMS Data Center - Geographical Redundancy)
+c. IP PBX Support & Maintenance","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0255","Geography River Investigation – Y10 Students
+Date: 10 March 2026
+Time: 8am – 1.30pm
+Venue: Cherok Tok Kun, Bukit Mertajam
+Pax: 13 students ; 2 teachers
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0295","XCL Educational Leadership Conference – XCL Future Leaders Programme
+Date: 11 - 12 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0177","Approved by Mr Jawad, attached in PO-MY04-01375","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0298","Items taken on 2/4/2026 is still unpaid, and pending updated formal quotation form vendor","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0291","Duplicate with RF0426-0291","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0305","Jawad's approval attached","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0325","1 bus field trip to Planetarium Negara on 16/6/2026
+
+Pickup: RK Kajang Prima
+Dropoff: Planeterium Negara
+Date: 16 June 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0294","payment  by credit card","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0330","1 bus field trip to PLANETERIUM NEGARA on 23/4/2026
+
+Pickup: RK Equine Park
+Dropoff: Planeterium Negara
+Date: 23 April 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0339","1 bus field trip to PLANETERIUM NEGARA on 12/6/2026
+
+Pickup: RK Sunway
+Dropoff: Planeterium Negara
+Date: 12 June 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0326","1 bus field trip to PLANETERIUM NEGARA on 18/6/2026
+
+Pickup: RK Setia Eco Hill
+Dropoff: Planeterium Negara
+Date: 18 June 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0155","1 bus field trip to PLANETERIUM NEGARA on 12/6/2026
+
+Pickup: RK SS19
+Dropoff: Planeterium Negara
+Date: 12 June 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0213","Vendor has yet to be registered, pending update from requestor","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0263","1 bus field trip to PLANETERIUM NEGARA on 8/5/2026
+
+Pickup: RK Ampang
+Dropoff: Planeterium Negara
+Date: 8 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0294","Event: Worlds Scholars Cup Competition Registration Fee
+Date: 21 - 22 Apr 2025
+Location: POWISS, Penang","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0277","New swimming pool services after the job swimming pool refurbishment flooring done. The current service under poolcare, PO-MY03-05544 closed. Will proceed the next service with Fluidra Malaysia Sdn Bhd. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0307","All vendor details completed and correct. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0343","done amend","Posted","arina@real.edu.my"
+,"RF0426-0260","Please refer to RF0426-0176, as duplicate request","Rejected","anisnurshazmira@xcledu.my"
+,"RF0426-0370","2026 Sports Day
+Location: Dewan Serbaguna SJKC Tung Hua, S2 Heights
+Date: 14.06.2026
+Time: 7am - 12pm","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0370","Pending document and vendor registration from vendor","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0167","comparison quotation attached","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0350","done upload 2nd payment from parent","Posted","arina@real.edu.my"
+,"RF0426-0281","- Upon Appointment (50%) - RM 4,000.00
+- Upon Obtained endorse Renewed KM (50%) - RM 4,000.00","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0272","Pending Documents from Arif
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0375","please return, curriculum should be secondary.","Posted","sitinadia@xcledu.my"
+,"RF0426-0353","the transportation does not include in costing form. it is last minute plan & collection from students.","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0426-0368","As per usual practice, No quotation from Worldtraveller. Refer attached email for the quote price.","Posted","najihah.ms@srikdu.edu.my"
+,"RF0426-0294","https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fbuy.stripe.com%2FeVa8A4afefJug5a7st&data=05%7C02%7Cs.tachiyaeni%40srikdu.edu.my%7Cdbf8a8b1b11f45fd283608de9ccefff5%7C97c871d1b9314ac58832f953f3b53053%7C0%7C0%7C639120610029800387%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=2v4bGrjEeGweioe6tX9ldATnUh5dOyjFuNgYysaCSug%3D&reserved=0","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0294","Payment via Stripe--  invoice number 43231.
+","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0333","new vendor- need register vendor","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0253","To AP team, kindly amortise these costs from July 2026 - Dec 2026 (FY27) ","Posted","shpoey@realkids.edu.my"
+,"RF0426-0403","Refer to – QF26-1051","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0394","done amend","Posted","arina@real.edu.my"
+,"RF0426-0391","HOLD because according to Mr Rhys, the DSL team might change.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0344","done amend ","Posted","arina@real.edu.my"
+,"RF0426-0340","GIS Dragons Early Fire Swim Meet
+Date: 22 - 24 May 26
+No of Students: 20 student","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0404","Please return as need to change title","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0416","Reject as Cassie don't want to install as we have children with injured who use the lift.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0311","This should PO exemption - Pantry supply","Rejected","atiqah.my@xcledu.my"
+,"RF0426-0360","invoice attached","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0255","The event has been postponed to 27th April 2026.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0307","Date : 20th June 2026 (Saturday)
+Time : 8.00 a.m. - 11.00 a.m.
+Venue : Dewan Sukan, UTeM","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0307","pending vendor regsitration","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0457","current left over -10 reams","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0439","Total Collection: RM 14,300","Posted","atiqah.my@xcledu.my"
+,"RF0426-0399","1 bus field trip to PLANETERIUM NEGARA on 14/5/2026
+
+Pickup: RK Klang
+Dropoff: Planeterium Negara
+Date: 14 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0436","Total Collection: RM 11,100","Posted","atiqah.my@xcledu.my"
+,"RF0426-0422","1 bus field trip to PLANETERIUM NEGARA on 22/5/2026
+
+Pickup: RK Rimbayu
+Dropoff: Planeterium Negara
+Date: 22 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0433","1 bus field trip to PLANETERIUM NEGARA on 21/5/2026
+
+Pickup: RK Shah Alam
+Dropoff: Planeterium Negara
+Date: 21 May 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0433","63 pax","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0424","The amount they round to near cost, so the cost will be nearer with the purchase.","Posted","atiqah.my@xcledu.my"
+,"RF0426-0058","Sales Event.
+
+Speaker: Dr Chin – ""Teenagers""
+Date: 7 June 2026
+Time: 10am - 12pm","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0215","Bus Arrangement [XCL International School – POWISS Georgetown]
+Date: 21 - 22 April 2026
+No of Student: 6 students+ 2 staffs","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0357"," Y6 Habitat Trip
+Date: 12/5/26
+Location: The Habitat Penang Hill
+No of pax: 62 students; 7 teachers	
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0399","99 students","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0399","Total students : 99 Paxs","Posted","atiqah.my@xcledu.my"
+,"RF0426-0456","Check the relocation pricing with vendor, seems like expensive ","Rejected","parthepan@xcledu.my"
+,"RF0426-0317","As discussed, please attach revised quotation and update distribution.","Rejected","sshaun@realkids.edu.my"
+,"RF0426-0397","allocation by center is attached","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0492","done add different line","Posted","arina@real.edu.my"
+,"RF0426-0431","Reject as Marianne has informed us that they will no longer be using the service.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0441","Benjamin has approve for school to bear the exceed cost. Refer attachment email.","Posted","najihah.ms@srikdu.edu.my"
+,"RF0426-0516","To request the submission of RF for outstanding invoices under RSSA from the year 2020 until 2023. A copy of the invoice has been checked and signed as a proof that the staff have taken the item.","Posted","nursyazwina@real.edu.my"
+,"RF0426-0517","To request the submission of RF for outstanding invoices under RSSA from the year 2020 until 2023. A copy of the invoice has been checked and signed as a proof that the staff have taken the item.","Posted","nursyazwina@real.edu.my"
+,"RF0326-0402","Duplicate RF-insurance amount already added in invoice no. BCIN26030604.
+Refer to the attached email & invoice.","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0460","To AP team, please amortise the term 2 cost from July 2026 - Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0418","PO exempted- The invoice has been forwarded to the Accounts Payable team for payment processing.","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0419","new vendor-need register vendor","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0537","Trip – KAFA Islamic Arts Museum Malaysia & National Mosque of Malaysia
+Date: 18.05.2026
+Time: 8:00 am – 4:00 pm
+Numbers of student: 99 (National Junior and National Senior)
+Numbers of teacher: 6","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0249","OLO Art Studio
+Date: 30/4/2026
+Pax: 38 students + 5 pax
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0469","no costing form.refer to the attached general quote","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0307","Request cancelled due to proceed to pay vendor via cash advance","Rejected","anisnurshazmira@xcledu.my"
+,"RF0426-0370","Request cancelled due to proceed to pay vendor via cash advance","Rejected","anisnurshazmira@xcledu.my"
+,"RF0426-0301","vendor has been registered under 'Lutfie Terus Maju Resources' as it has been clarified that the Bir Bar Catering is under Lutfie Terus Maju Resources.","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0301","pending revised quotation","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0489","RF on hold due to renewal in July, after FY 2025/26","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0547","1 bus field trip to PLANETERIUM NEGARA on 11/6/2026
+
+Pickup: RK Kemuning Greenhill
+Dropoff: Planeterium Negara
+Date: 11 June 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0547","pending docs from requestor","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0521","2000pcs","Posted","najihah.ms@srikdu.edu.my"
+,"RF0426-0348","40 pax cost shared per percentage shown in RF purpose","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0011","Campus Principal request to order some refreshment to serve for the guests. Ms Susana Davidson (XMCO) also invited for this 2nd PAG Meeting.","Posted","nursyazwina@real.edu.my"
+,"RF0426-0574","Final number of students participating is 9 pax. Awaiting organizer to provide the revised invoice. please refer to the attached email.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0499","Change to SIKG*","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0577","price inclusive of shipping fee. exclude vouchers","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0572","push and pull plate quotation attached
+","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0552","To AP team, please amortise these costs by respective center from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0561","To AP Team, please amortise these costs by respective centers from July 2026 to Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0561","To AP Team, please amortise these costs by respective centers from July 2026 to Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0543","To AP Team, please amortise these costs by respective centers from July 2026 to Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0511","To AP Team, please amortise these costs by respective centers from July 2026 to Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0539","To AP Team, please amortise these costs by respective centers from July 2026 to Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0536","To AP Team, please amortise these costs by respective centers from July 2026 to Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0520","To AP Team, please amortise these costs by respective centers from July 2026 to Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0526-0016","According to Jun, we will sell the ticket RM40.00. Cassie has approved to proceed with the bouncing castle rental but we havent upload in vircle yet so no collection report yet. Need to proceed to lock booking.","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0426-0461","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0568","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0530","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0515","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0246","Tagged wrong vendor, supposedly this job awarded to Pacific Office (M) Sdn Bhd. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0570","done","Posted","najihah.ms@srikdu.edu.my"
+,"RF0426-0558","To AP team, please amortise these costs by respective cost center from July 2026 - Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0560","To AP team, please amortise these costs by respective center from Jul 2026 to Dec 2026.","Posted","shpoey@realkids.edu.my"
+,"RF0426-0483","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0169","vendor registered","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0560","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0553","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0555","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0589","This is part of the netsuite/powerschool budget.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0059","double raise. refer to RF0326-0210","Rejected","syafiqah.aa@srikdu.edu.my"
+,"RF0426-0301","Revise Invoice under Lutfie Terus Maju Resources received on 6-May-26.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0028","[H3774] Combi Oven Sensor – RM180
+[H3688] Combi Oven Heat Repair – RM450
+Total: RM630
+
+Sharing cost: RM630/2 = RM315/side
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0039","done amend","Posted","arina@real.edu.my"
+,"RF0326-0418","Talk: 'No Sleep, No Chill: Medical Illness and Sleep'
+Date: 07.10.2026
+Time: 8am - 9am
+Location: Sri KDU International School (Penang)","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0538","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0535","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0519","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0532","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0502","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0513","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0496","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0496","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0484","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0588","Permission to approve granted by Mr Teoh Peng Hong on 6 May 2026.","Posted","sshaun@realkids.edu.my"
+,"RF0426-0058","BO has confirmed to use the rebranding budget. Please refer to the attached email.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0499","The unnecessary invoice already removed.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0482","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0523","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0549","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0518","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0510","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0501","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0169","Partial cost for Prom dinner -School sponsor RM 2000- please refer to the attachment for event details","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0523","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0579","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0571","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0426-0569","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0001","HRD Claimable. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0069","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0072","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0077","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0078","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0079","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0080","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0081","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0082","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0083","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0084","*PO to be ready and shared to Science Bridge Academy Sdn Bhd before 5 May 2026
+
+For summary order, please refer to attached File Term 2 Science Experiment Kit, Tab PLUS centres (2).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0080","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0079","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0046","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0035","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0070","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0022","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0019","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0018","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0426-0509","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0135","Dear Susana, please return this RF as this should be under B2B department, not academic management. ","Posted","sitinadia@xcledu.my"
+,"RF0526-0121","its monthly renewal due to no.of users","Posted","syafiqah.aa@srikdu.edu.my"
+,"RF0526-0121","this is charge according to user, price will be different every month.","Posted","sitinadia@xcledu.my"
+,"RF0426-0050","Jawad's approval email attached.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0435","no costing form. Please refer to the attached email for more understanding.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0326-0420","jawad approval email attached","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0358","jawad approval email attached. ","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0083","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0078","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0072","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0069","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0057","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0056","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0054","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0053","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0038","To AP team, please amortise these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0426-0567","Jawad approval email attached","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0155","This for May 2026 service. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0154","Double raised. Invoice for this request was paid on 13 April 2026. Refer to RF0326-0415.","Rejected","hamizah.mf@xcledu.my"
+,"RF0526-0159","Total invoice amount GBP 6486.5 
+Total Credit note amount: GBP 1286.5
+
+RF raised for GBP 5200","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0172","The item is no longer needed.","Posted","syahidzul.m@srikdu.edu.my"
+,"RF0526-0172","The items are no longer needed","Posted","syahidzul.m@srikdu.edu.my"
+,"RF0526-0131","please refer to PO-MY15-02091 for Chong Oi Kah","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0115","Waiting Capex Code","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0435","collection list attached","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0408","For the price list, please refer to Master_Procurement - RK Suppliers Item Lists. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0103","done amend","Posted","arina@real.edu.my"
+,"RF0526-0149","done amend","Posted","arina@real.edu.my"
+,"RF0526-0131","Training: Cambridge IGCSE™ First Language Chinese (0509) | 2023-25 and 2026-27 Syllabus | Focus on Assessment | Kuala Lumpur, Malaysia
+Name: Khairul Atikah Khairul Faizin
+Date: 15-Apr-26
+Fee: GBP72","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0165","The trip has already passed, and the teacher missed out on raising the RF earlier.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0149","done amend ","Posted","arina@real.edu.my"
+,"RF0526-0120","Attached Risk Assessment Camp 2026","Posted","nursyazwina@real.edu.my"
+,"RF0526-0027","Pending SSM Certificate. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0195","Reject as requested.","Rejected","shaidatulnabila@real.edu.my"
+,"RF0526-0166","The trip has already passed, and the teacher missed out on raising the RF earlier.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0152","involve primary & sec students","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0041","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0084","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0051","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0041","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0037","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0033","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0081","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0082","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0166","Event: U9 Football Tournament 
+Date: 13 March 2026
+Venue: Uplands International School","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0209","For 75 pax","Posted","anisnurshazmira@xcledu.my"
+,"RF0326-0419","Event has already passed, and the teacher missed out on raising the RF earlier.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0027","Participated by 85 students and 8 teachers. Refer to email confirmation from Priya. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0358","Job will be invoices in one invoice, following the respective PO (quotation have two)","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0138","For quotation refer to master procurement yellow highlighted items.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0139","For the quotation, please refer to Master Procurement at LT Stationeries Tab.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0235","Field Trip for International Primary Y3 & Y4
+Date: Monday, 15th June 2026 
+Venue: Sinar Eco Resort, Johor
+
+Package Includes:
+• Transportation from school to the venue and back
+• Entrance ticket for activities
+• Lunch
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0235","collection listing from vircle done attached ","Posted","arina@real.edu.my"
+,"RF0526-0222","Teacher will print the two-sheet card for the 'Robin Award Booklet' for class use","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0243","done amend","Posted","arina@real.edu.my"
+,"RF0426-0493","Rent a room at S2 to temporarily accommodate them.
+The proposed rental period is from 4 May to 22 May, with a total rental cost of RM1,728 (with SST).","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0240","Vendor just created in Netsuite System. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0111","Have process new RF for this service.","Rejected","najihah.ms@srikdu.edu.my"
+,"RF0526-0155","Correction, this Invoice is for Mar and Apr 2026.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0216","advise by anis change to R&M other ","Posted","arina@real.edu.my"
+,"RF0526-0213","Cost Sharing Sri KDU Schools:
+
+1) SKKD: 45%
+2) SISJ: 36%
+3) SIPG: 6%
+4) SIKG: 13%","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0263","Email sent to Chung Yi Ling for vendor to fill up the Vendor Registartion Form. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0333","18/5-Vendor created","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0125","Received official quotation from Rachel on 19th May 2025.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0032","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0025","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0034","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0050","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0115","As per conversation with Atiqah and Fadzeelah, they agree that this purchase will be parked under OPEX because this repair and replace job is urgent.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0526-0219","Urgent job for swimming gala","Posted","ikhram.z@srikdu.edu.my"
+,"RF0426-0493","RF rejected as proceed with payment – non-PO (rental of premise)
+Due to no budget buffered for this, it is assumed to be BAU – Shao Hui's input.","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0125","Request Atiqah or Nadia to return RF, as the we need to split by 4 lines items.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0246","Price included 8% SST. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0281","Current Collection : RM 30,000","Posted","atiqah.my@xcledu.my"
+,"RF0526-0162","Additional marketing materials for branding and venue dress-up.","Posted","sshaun@realkids.edu.my"
+,"RF0426-0381","Jawad approval email attached","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0240","As of today 270 participants registered for the Fun Camp confirmed by Chung Yi Ling. Refer to attached files : 
+1) Participants List 
+2) Pricing and Discount List","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0139","Refer to screenshot price for RF0526-0139 file for price details. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0300","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0302","Attached wrong CF Wrong CF","Posted","thevarani.s@srikdu.edu.my"
+,"RF0526-0263","Awaiting confirmation from Hajar either this training HRD claimable or not. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0244","Refer to screenshot image for the price. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0237","RF return, please split to two line as requester already mentioned 1 unit for International and 1 for National School. Please choose the correct campus. ","Rejected","hamizah.mf@xcledu.my"
+,"RF0526-0114","Refer to yellow highlighted for the price in screenshot image. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0113","Kindly refer to attached screenshot image for the price.  ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0313","Kindly refer to screenshot image for the price. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0108","For price, please refer to Price List attached in yellow highlighted. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0234","The camp has been cancelled due to insufficient participants","Rejected","syafiqah.aa@srikdu.edu.my"
+,"RF0326-0036","This light box ads is handle by previous Marketing Manager Gladwin before he depart from RSSA. The ads deployed on 25 July 2025 until 24 July 2026 at Ardence Lad, Jaya Grocer Setia Alam. The amount of payment have approved by Eddy. ","Posted","nursyazwina@real.edu.my"
+,"RF0526-0315","Attached screenshot price and refer to yellow highlighted for item cost to be purchased. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0263","This training is HRD claimable: 248225U_26_0276
+HRD will pay directly to the external trainer.","Posted","ylchung@realkids.edu.my"
+,"RF0326-0218","We have revised the quotation to reflect 2 books instead of 4 books","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0306","dealt with supplier previously, accepts small custom orders","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0214","Please proceed IR once PO issued. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0493","RF rejected as proceed with payment – non-PO (rental of premise)
+Due to no budget buffered for this, it is assumed to be BAU – Shao Hui's input.","Rejected","anisnurshazmira@xcledu.my"
+,"RF0426-0546","As this is considered sponsorship for further studies, non-PO. Procurement Team has informed Hajar to submit the invoice to AP Team for payment processing.","Rejected","anisnurshazmira@xcledu.my"
+,"RF0426-0544","As this is considered sponsorship for further studies, non-PO. Procurement Team has informed Hajar to submit the invoice to AP Team for payment processing.","Rejected","anisnurshazmira@xcledu.my"
+,"RF0526-0328","Need to change curriculum to no curriculum because of EYFS and Y1","Posted","ikhram.z@srikdu.edu.my"
+,"RF0526-0282","done amend","Posted","arina@real.edu.my"
+,"RF0426-0381","We will proceed with the purchase through the vendor, not Shopee.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0230","On hold as pending Esther's confirmation on budget","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0333","done amend","Posted","arina@real.edu.my"
+,"RF0526-0316","For the price, please refer to screenshot image item highlighted in yellow. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0562","pending revised quotation from requestor as wrong address
+","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0287","correction : please mention delivery cost in item 2.","Posted","sitinadia@xcledu.my"
+,"RF0526-0254","pending revised invoice as not addressed to REG","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0271","Event: AIMS Safeguarding Networking
+Date: 4/6/2026
+Venue: Training Room National Secondary SKKD","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0287","I already include delivery cost in item 2 before. ","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0341","Please highlight to requester that the request must be submitted before confirm order with the vendor.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0324","Trophy will be given out in each week in June.","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0350","one time payment per year","Posted","sitinadia@xcledu.my"
+,"RF0526-0331","done attach","Posted","najihah.ms@srikdu.edu.my"
+,"RF0526-0344","Training Date on 18 June 2026.","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0343","Training Date on 18th June 2026. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0111","There will be a total of 91 graduating students and we plan to purchase 91 stoles accordingly. However, at the moment, only 51 students have made the payment.
+The Graduation PIC has already sent reminders to the parents regarding the graduation payment. We need to order soonest possible as the graduation will be held on 12th June 2026.","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0111","quantity in the quotation is 90 with 1 is sample. we have to pay another RM 34 if we want the sample. if not, we have to pay RM68. - as per naqib confirmation","Posted","sitinadia@xcledu.my"
+,"RF0426-0557","pending revised invoice","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0348","done amend","Posted","arina@real.edu.my"
+,"RF0526-0317","Date : 24 & 25 June 2026, 6.00-9.00PM
+Venue : Primary Hall
+","Posted","najihah.ms@srikdu.edu.my"
+,"RF0526-0369","balance current stock: left 22pcs only","Posted","arina@real.edu.my"
+,"RF0526-0298","CAPEX Code :  B26-ECCE-34 
+","Posted","atiqah.my@xcledu.my"
+,"RF0526-0125","This concert venue cost is under school budget confirmed by Rachel Lee Pui Yee. 
+Share cost between all 4 centres (WM, AMP, TC & STP).","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0272","Important Note: This is charged under GL620007 (Admissions & Events) under ISR. ","Posted","wendy.lai@xcledu.my"
+,"RF0526-0296","item 2 : 36.90 x 4 = 147.6 + 26.5 = RM174.10  - use original price to avoid any shortage during receiving the items.","Posted","sitinadia@xcledu.my"
+,"RF0526-0373","Waiting confirmation from Ms Malar regarding the budget. To confirm the cost from school budget or students' collection. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0115","Use CAPEX.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0526-0362","Ambulance rental on 11 & 31 July 2026. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0310","done attach costing form","Posted","arina@real.edu.my"
+,"RF0526-0369","done amend the address under RSJB","Posted","arina@real.edu.my"
+,"RF0526-0378","Please refer to RF0526-0395","Rejected","syafiqah.aa@srikdu.edu.my"
+,"RF0526-0240","proceed with 200pax for the deposit payment.","Posted","sitinadia@xcledu.my"
+,"RF0526-0373","Confirm by Ms Malar, this trip is under school budget. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0296","Not enough time to buy","Rejected","fadzeelah.ak@srikdu.edu.my"
+,"RF0426-0557","revised invoice attached","Posted","anisnurshazmira@xcledu.my"
+,"RF0426-0562","revised invoice attached","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0065","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0063","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0061","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0427","Bus Quatation for Funcamp Field trip to Sungai Wang Plaza (Miniature Malaysia) on the 4th June 2026 (Slot 2) from RKBJ.","Posted","subashinikaliappan@realkids.edu.my"
+,"RF0526-0427","1 bus field trip to Fun Camp
+
+Pickup: RK Bukit Jelutong
+Dropoff: SG Wang Plaza
+Date: 4 June 2026","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0412","this is for additional charge as existing is PO-MY03-06094. ","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0412","monthly fuel surcharge for june is tbc","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0399","reattach","Posted","najihah.ms@srikdu.edu.my"
+,"RF0526-0428","Payment via Stripe--  invoice number 44027","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0407","this event was under the budget of other student activity from the first place, we only planned for collection last minute.","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0428","Event: Worlds Scholars Cup Competition Registration Fee
+Date: 26th June- 1st July 2026
+Location:KLCC","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0408","this event was under the budget of other student activity from the first place, we only planned for collection last minute.","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0090","Attached approval email from Jawad.","Posted","nursyazwina@real.edu.my"
+,"RF0526-0429","new vendor- need register vendor","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0363","Reject as Jun would like to source from vendor to provide the popcorn maker service. We might purchase pop corn machine for the next term. ","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0327","Total Collection : RM 1,650.00","Posted","atiqah.my@xcledu.my"
+,"RF0526-0468","Trip cancelled due to HFMD – confirmed by Ms Sharmine. RK SLY included as only 3 students","Rejected","anisnurshazmira@xcledu.my"
+,"RF0526-0440","done attached","Posted","arina@real.edu.my"
+,"RF0526-0274","attachment is already included","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0455","Please check with Ms Lorraine as readers are not from procured","Rejected","anisnurshazmira@xcledu.my"
+,"RF0526-0458","Please check with Ms Lorraine as excercise books are not procured individually","Rejected","anisnurshazmira@xcledu.my"
+,"RF0526-0462","charge to XMCO – Hayley","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0388","Total Pax: 77 Pax","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0353","as checked with Finance team, allocation for this event is RM3000~ RM4000. No costing form this.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0426-0198","Hi PurchasingTeam, Vendor haven't received the payment. Please make the payment as soon as possible. Thanks","Posted","mlng@realkids.edu.my"
+,"RF0426-0306","No stock for the requested model.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0331","Proceed with Mr Ben approval as attach email.","Posted","najihah.ms@srikdu.edu.my"
+,"RF0526-0401","new vendor registered","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0372","Trip Date : 4th June 2026","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0315","This is for which term?","Posted","shpoey@realkids.edu.my"
+,"RF0526-0478","Awaiting confirmation from Tan Fei Lee for a few items. Will proceed to purchase once all items confirmed. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0465","Refer to attached image in yellow highlighted for the price. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0436","Date: 4th June 2026. ","Posted","hamizah.mf@xcledu.my"
+,"RF0426-0391","Proceed with the DSL Poster, no changes made.","Posted","ikhram.z@srikdu.edu.my"
+,"RF0526-0303","previously this was under bulk subscription, they will change the address to Sri KDU for the next financial year","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0430","new vendor-registered","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0292","proceed in next AY","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0367","new vendor-need to register vendor","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0303","No need to charge under item code MKT-02001. Proceed with Interco Chargeback. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0326","The charges are based on labour, tools, transport, materials, cable work (2.5mm), and installation of socket outlets, with different costs due to different cable lengths and socket types: RM150.00 for 1st floor (1-gang SSO, approx. 6ft cable run), RM380.00 for 1st floor (1-gang SSO, approx. 47ft cable run), and RM280.00 for 2nd floor (2-gang SSO, approx. 18ft cable run).","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0326","The charges are based on labour, tools, transport, materials, cable work (2.5mm), and installation of socket outlets, with different costs due to different cable lengths and socket types: RM150.00 for 1st floor (1-gang SSO, approx. 6ft cable run), RM380.00 for 1st floor (1-gang SSO, approx. 47ft cable run), and RM280.00 for 2nd floor (2-gang SSO, approx. 18ft cable run).","Posted","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0355","Please attach the collection list for us to proceed payment to Sunway Lost World Water Park SB. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0473","Trip Date : 5th June 2026","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0435","Reject as Edward inform they have pay using boarding credit card and have forward the receipt to finance payable.","Rejected","naqib.ahmad@srikdu.edu.my"
+,"RF0526-0355","Total collections: RM110,682 (as attached file)","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0483","The cost sharing between schools allocated by Claudine. ","Posted","hamizah.mf@xcledu.my"
+,"RF0526-0483","What Period is this covering, and for which Financial Year? ","Posted","wendy.lai@xcledu.my"
+,"RF0526-0430","No quotation, pls refer to file ""WSC_KL_2026_Reservation_Completed"". Section D optional tour code MKZFD -Historical Malacca Tour incl. lunch/pax","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0403","PO-MY06-14201","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0085","PO-MY15-02206","Posted","anisnurshazmira@xcledu.my"
+,"RF0526-0480","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0315","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026
+","Posted","shpoey@realkids.edu.my"
+,"RF0526-0421","According to Ikhram, cost has increase for month May & June 2026. 1 Month waste collection = 12 trips.
+1) May = 12 Trips
+2) June = 12 Trips","Posted","atiqah.my@xcledu.my"
+,"RF0526-0316","To AP team, please amortize these costs by respective centers from July 2026 to Dec 2026","Posted","shpoey@realkids.edu.my"
+,"RF0526-0217","only Early years","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0336","PO-MY03-06292","Posted","atiqah.my@xcledu.my"
+,"RF0526-0473","Refer to manual request form raised and PO-MY06-14220.","Rejected","hamizah.mf@xcledu.my"
+,"RF0526-0482","Teacher managed to sort & dont need the external company","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0353","pay & claim","Rejected","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0479","pending inv &put on hold .proceed in next AY","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0293","Hold, to use AY26-27 Budget. Will approve in July 2026","Posted","ikhram.z@srikdu.edu.my"
+,"RF0526-0376","Total Collection : RM 4,116","Posted","atiqah.my@xcledu.my"
+,"RF0526-0483","please refer to PO-MY06-14235 as we have closed the SKKD PO due to clash of payment.","Posted","sitinadia@xcledu.my"
+,"RF0526-0068","PO-MY04-01448","Posted","atiqah.my@xcledu.my"
+,"RF0426-0508","Artwork finalised.","Posted","s.tachiyaeni@srikdu.edu.my"
+,"RF0526-0320","Have split the portion accordingly.
+Collection RM1800
+Cost by School RM3000 & minus rm1300 for transport
+Balance rm1700 divide accordingly for entrance fee.","Posted","najihah.ms@srikdu.edu.my"
+,"RF0426-0292","Total collection : RM 13,200","Posted","atiqah.my@xcledu.my"
+,"RF0526-0444","Total collection : RM 22,500","Posted","atiqah.my@xcledu.my"
