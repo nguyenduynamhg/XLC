@@ -183,7 +183,9 @@ If(
             Item_Campus: First(itemGrid.AllItems).drpCampuNew.Selected.CampusName, 
             Item_Curriculum: First(itemGrid.AllItems).cmbCurriculum.Selected.CurriculumName, 
             Item_Dept: First(itemGrid.AllItems).txtItemDepartment.Selected.DepartmentName, 
-            RouteType: PRRouteType
+            RouteType: PRRouteType,
+            Purpose_Subcode: Coalesce(First(itemGrid.AllItems).cmbPurposeSubcode.Selected.Title, ""),
+            Purpose_Subcode_Id: Coalesce(First(itemGrid.AllItems).cmbPurposeSubcode.Selected.'Internal ID', 0)
         }
     );
     
@@ -221,7 +223,9 @@ If(
                 CurriculumnNSID: ThisRecord.cmbCurriculum.Selected.CurNSInternalID, 
                 itemTaxNSID: ThisRecord.cmbTaxCode.Selected.NS_InternalID,
                 itemSubsidiary: ThisRecord.txtItemSubsidiary.Selected.Name, 
-                itemSubsidiaryNSID: ThisRecord.txtItemSubsidiary.Selected.NS_InternalID
+                itemSubsidiaryNSID: ThisRecord.txtItemSubsidiary.Selected.NS_InternalID,
+                PurposeSubcode: Coalesce(ThisRecord.cmbPurposeSubcode.Selected.Title, ""),
+                PurposeSubcodeID: Coalesce(ThisRecord.cmbPurposeSubcode.Selected.'Internal ID', 0)
             }
         )
     );
