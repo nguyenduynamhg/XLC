@@ -255,11 +255,11 @@ If(checkFields && checkMatrix,
         );
         RemoveIf('SY2425-Approval_log', ID in colToDelete.ID);
         Set(varSpinner, false);
-        Notify("Approval completed successfully.", NotificationType.Success);
-    );
+        Notify("Approval completed successfully.", NotificationType.Success)
+    ,
 
     // 5) Branch logic: matrix stages (≤3) vs DOA stages (≥4)
-    If(
+    // [FIX] Merged with step 4b into single If() to ensure only ONE branch executes
         // MATRIX STAGES (1–3)
         varCurrentStage <= 3,
 
@@ -296,31 +296,35 @@ If(checkFields && checkMatrix,
                                         10,"Level10"
                                     )
                             },
-                            Patch(
-                                'SY2425-PR-GeneralInfo',
-                                LookUp('SY2425-PR-GeneralInfo', PR_No = SelectedPR.PR_No),
-                                { Status: _firstStageName, LatestStatus: latestPendingRecord.StageCheck}
-                            );
-                            Patch(
-                                'SY2425-Approval_log',
-                                Defaults('SY2425-Approval_log'),
-                                {
-                                    PR_No: SelectedPR.PR_No,
-                                    Dept: SelectedPR.Department,
-                                    Campus: varRFCampus,
-                                    Item_Subsidiary: varRFSubsidiary,
-                                    Item_Campus: varRFCampus,
-                                    Item_Dept: SelectedPR.Item_Dept,
-                                    Item_Curriculum: SelectedPR.Item_Curriculum,
-                                    Requestor: SelectedPR.Requestor,
-                                    'Requestor Name': SelectedPR.RequestorName,
-                                    'Approved By': _firstDOARec.ApproverEmail,
-                                    'Approver Name': _firstDOARec.ApproverName,
-                                    Stage: _firstStageName,
-                                    StageCheck: _firstStageName,
-                                    Status: "Pending",
-                                    LogType: _firstDOARec.StageName
-                                }
+                            // [FIX] IfError wrapper to catch silent Patch failures
+                            IfError(
+                                Patch(
+                                    'SY2425-PR-GeneralInfo',
+                                    LookUp('SY2425-PR-GeneralInfo', PR_No = SelectedPR.PR_No),
+                                    { Status: _firstStageName, LatestStatus: latestPendingRecord.StageCheck}
+                                );
+                                Patch(
+                                    'SY2425-Approval_log',
+                                    Defaults('SY2425-Approval_log'),
+                                    {
+                                        PR_No: SelectedPR.PR_No,
+                                        Dept: SelectedPR.Department,
+                                        Campus: varRFCampus,
+                                        Item_Subsidiary: varRFSubsidiary,
+                                        Item_Campus: varRFCampus,
+                                        Item_Dept: SelectedPR.Item_Dept,
+                                        Item_Curriculum: SelectedPR.Item_Curriculum,
+                                        Requestor: SelectedPR.Requestor,
+                                        'Requestor Name': SelectedPR.RequestorName,
+                                        'Approved By': _firstDOARec.ApproverEmail,
+                                        'Approver Name': _firstDOARec.ApproverName,
+                                        Stage: _firstStageName,
+                                        StageCheck: _firstStageName,
+                                        Status: "Pending",
+                                        LogType: _firstDOARec.StageName
+                                    }
+                                ),
+                                Notify("Error routing to " & _firstStageName & ". Please contact admin and retry.", NotificationType.Error)
                             )
                         )
                     )

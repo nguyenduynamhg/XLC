@@ -206,11 +206,11 @@ If(
     // Xóa các dòng log pending thừa thãi khỏi hệ thống
     RemoveIf('SY2425-Approval_log', ID in colToDelete.ID);
     Set(varSpinner, false);
-    Notify("Approval completed successfully.", NotificationType.Success);
-);
+    Notify("Approval completed successfully.", NotificationType.Success)
+,
 
 // 5) PHÂN NHÁNH LOGIC: XỬ LÝ CÁC CẤP MATRIX THÔNG THƯỜNG (CẤP <= 3) VS CÁC CẤP ĐẠI DIỆN DOA (CẤP >= 4)
-If(
+// [FIX] Merged with step 4b into single If() to ensure only ONE branch executes
     // NHÁNH A: CÁC GIAI ĐOẠN ĐẦU THEO MA TRẬN CƠ BẢN (Reviewer, Reviewer2, BudgetOwner)
     varCurrentStage <= 3,
 
@@ -248,33 +248,35 @@ If(
                                     10,"Level10"
                                 )
                         },
-                        // Cập nhật trạng thái Header của đơn sang tên Cấp DOA đầu tiên đó
-                        Patch(
-                            'SY2425-PR-GeneralInfo',
-                            LookUp('SY2425-PR-GeneralInfo', PR_No = Gallery1.Selected.PR_No),
-                            { Status: _firstStageName, LatestStatus: latestPendingRecord.StageCheck }
-                        );
-                        // Tạo một lượt duyệt Chờ duyệt (Pending) mới cho Người phê duyệt thuộc cấp DOA đó
-                        Patch(
-                            'SY2425-Approval_log',
-                            Defaults('SY2425-Approval_log'),
-                            {
-                                PR_No: Gallery1.Selected.PR_No,
-                                Dept: Gallery1.Selected.Department,
-                                Campus: varRFCampus,
-                                Item_Subsidiary: varRFSubsidiary,
-                                Item_Campus: varRFCampus,
-                                Item_Dept: Gallery1.Selected.Item_Dept,
-                                Item_Curriculum: Gallery1.Selected.Item_Curriculum,
-                                Requestor: Gallery1.Selected.Requestor,
-                                'Requestor Name': Gallery1.Selected.RequestorName,
-                                'Approved By': _firstDOARec.ApproverEmail,
-                                'Approver Name': _firstDOARec.ApproverName,
-                                Stage: _firstStageName,
-                                StageCheck: _firstStageName,
-                                Status: "Pending",
-                                LogType: _firstDOARec.StageName
-                            }
+                        // [FIX] IfError wrapper to catch silent Patch failures
+                        IfError(
+                            Patch(
+                                'SY2425-PR-GeneralInfo',
+                                LookUp('SY2425-PR-GeneralInfo', PR_No = Gallery1.Selected.PR_No),
+                                { Status: _firstStageName, LatestStatus: latestPendingRecord.StageCheck }
+                            );
+                            Patch(
+                                'SY2425-Approval_log',
+                                Defaults('SY2425-Approval_log'),
+                                {
+                                    PR_No: Gallery1.Selected.PR_No,
+                                    Dept: Gallery1.Selected.Department,
+                                    Campus: varRFCampusDS,
+                                    Item_Subsidiary: varRFSubsidiaryDS,
+                                    Item_Campus: varRFCampusDS,
+                                    Item_Dept: Gallery1.Selected.Item_Dept,
+                                    Item_Curriculum: Gallery1.Selected.Item_Curriculum,
+                                    Requestor: Gallery1.Selected.Requestor,
+                                    'Requestor Name': Gallery1.Selected.RequestorName,
+                                    'Approved By': _firstDOARec.ApproverEmail,
+                                    'Approver Name': _firstDOARec.ApproverName,
+                                    Stage: _firstStageName,
+                                    StageCheck: _firstStageName,
+                                    Status: "Pending",
+                                    LogType: _firstDOARec.StageName
+                                }
+                            ),
+                            Notify("Error routing to " & _firstStageName & ". Please contact admin and retry.", NotificationType.Error)
                         )
                     )
                 )
@@ -465,15 +467,16 @@ If(
                             { Status: _nextStageName, LatestStatus: latestPendingRecord.StageCheck }
                         );
                         // Tạo một log Chờ duyệt (Pending) mới chuyển tiếp tới cho Người duyệt cấp cao hơn đó
+                        // [FIX] Corrected varRFCampus/varRFSubsidiary → varRFCampusDS/varRFSubsidiaryDS
                         Patch(
                             'SY2425-Approval_log',
                             Defaults('SY2425-Approval_log'),
                             {
                                 PR_No: Gallery1.Selected.PR_No,
                                 Dept: Gallery1.Selected.Department,
-                                Campus: varRFCampus,
-                                Item_Subsidiary: varRFSubsidiary,
-                                Item_Campus: varRFCampus,
+                                Campus: varRFCampusDS,
+                                Item_Subsidiary: varRFSubsidiaryDS,
+                                Item_Campus: varRFCampusDS,
                                 Item_Dept: Gallery1.Selected.Item_Dept,
                                 Item_Curriculum: Gallery1.Selected.Item_Curriculum,
                                 Requestor: Gallery1.Selected.Requestor,
